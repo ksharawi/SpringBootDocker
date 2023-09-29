@@ -57,5 +57,5 @@ jobs:
          connect_timeout: 10s
          first_ssh: |
           docker pull ksharawi/springboot-image
-          docker run -d springboot ksharawi/springboot-image
+          docker run -d --name springboot ksharawi/springboot-image:latest
 
